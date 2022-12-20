@@ -11,3 +11,14 @@ body {
   grid-gap: 25px;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr) );
 }
+
+.header-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    font-size: var(--large-font);
+  }
+}
+

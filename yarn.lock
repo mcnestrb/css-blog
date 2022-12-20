@@ -576,7 +576,7 @@ debug@4.3.2:
   dependencies:
     ms "2.1.2"
 
-debug@^4.3.4, debug@~4.3.1, debug@~4.3.2:
+debug@^4.3.3, debug@^4.3.4, debug@~4.3.1, debug@~4.3.2:
   version "4.3.4"
   resolved "https://bulbenergy.jfrog.io/bulbenergy/api/npm/npm/debug/-/debug-4.3.4.tgz#1319f6579357f2338d3337d2cdd4914bb5dcc865"
   integrity sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==
@@ -653,6 +653,15 @@ ejs@^3.1.8:
   integrity sha512-/sXZeMlhS0ArkfX2Aw780gJzXSMPnKjtspYZv+f3NiKLlubezAHDU5+9xz6gd3/NhG3txQCo6xlglmTS+oTGEQ==
   dependencies:
     jake "^10.8.5"
+
+eleventy-sass@^2.1.3:
+  version "2.1.3"
+  resolved "https://bulbenergy.jfrog.io/bulbenergy/api/npm/npm/eleventy-sass/-/eleventy-sass-2.1.3.tgz#52a1c8cd50e45d2cc22a1b97d214c4ecd0998550"
+  integrity sha512-sTaZPYSdckCH7uSKPkuVNWaciZq73QZPhOo2LFaF6jEdDrYYWQXdLj2+wdJPR5HSKhqXZO3WykUnSFJs1SqrXQ==
+  dependencies:
+    debug "^4.3.3"
+    kleur "^4.1.4"
+    sass "^1.49.7"
 
 emoji-regex@^8.0.0:
   version "8.0.0"
@@ -1165,7 +1174,7 @@ kind-of@^6.0.0, kind-of@^6.0.2:
   resolved "https://bulbenergy.jfrog.io/bulbenergy/api/npm/npm/kind-of/-/kind-of-6.0.3.tgz#07c05034a6c349fa06e24fa35aa76db4580ce4dd"
   integrity sha512-dcS1ul+9tmeD95T+x28/ehLgd9mENa3LsvDTtzm3vyBEO7RPptvAD+t44WVXaUjTBRcrpFeFlC8WCruUR456hw==
 
-kleur@^4.1.5:
+kleur@^4.1.4, kleur@^4.1.5:
   version "4.1.5"
   resolved "https://bulbenergy.jfrog.io/bulbenergy/api/npm/npm/kleur/-/kleur-4.1.5.tgz#95106101795f7050c6c650f350c683febddb1780"
   integrity sha512-o+NO+8WrRiQEE4/7nwRJhN1HWpVmJm511pBHUxPLtp0BUISzlBplORYSmTclCnJvQq2tKu/sgl3xVpkc7ZWuQQ==
@@ -1705,6 +1714,15 @@ rxjs@^5.5.6:
   version "2.1.2"
   resolved "https://bulbenergy.jfrog.io/bulbenergy/api/npm/npm/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
+
+sass@^1.49.7:
+  version "1.57.1"
+  resolved "https://bulbenergy.jfrog.io/bulbenergy/api/npm/npm/sass/-/sass-1.57.1.tgz#dfafd46eb3ab94817145e8825208ecf7281119b5"
+  integrity sha512-O2+LwLS79op7GI0xZ8fqzF7X2m/m8WFfI02dHOdsK5R2ECeS5F62zrwg/relM1rjSLy7Vd/DiMNIvPrQGsA0jw==
+  dependencies:
+    chokidar ">=3.0.0 <4.0.0"
+    immutable "^4.0.0"
+    source-map-js ">=0.6.2 <2.0.0"
 
 sass@^1.57.0:
   version "1.57.0"
